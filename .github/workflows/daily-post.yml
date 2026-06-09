@@ -1,0 +1,60 @@
+name: Daily Peter Coddle Bot
+
+on:
+  schedule:
+    # Runs daily at 09:00 America/New_York (EDT in summer = UTC-4 -> 13:00 UTC)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+    inputs:
+      do_post:
+        description: 'Set to "true" to actually post to Bluesky (requires secrets)'
+        required: false
+        default: 'false'
+
+jobs:
+  preview:
+    name: Preview (dry-run)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run dry-run
+        run: python3 bot.py --dry-run
+
+  post:
+    name: Post to Bluesky
+    needs: preview
+    runs-on: ubuntu-latest
+    # Run when scheduled (automatic) OR when manually dispatched with do_post=true
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.do_post == 'true') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run and post to Bluesky
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          AUTOMATED: '1'
+        run: python3 bot.py --post
