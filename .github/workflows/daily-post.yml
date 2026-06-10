@@ -1,5 +1,8 @@
 name: Daily Peter Coddle Bot
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Runs daily at 09:00 America/New_York (EDT in summer = UTC-4 -> 13:00 UTC)
@@ -10,6 +13,10 @@ on:
         description: 'Set to "true" to actually post to Bluesky (requires secrets)'
         required: false
         default: 'false'
+      do_force:
+        description: 'Set to "true" to force posting and bypass safety guard (use with caution)'
+        required: false
+        default: 'false'
 
 jobs:
   preview:
@@ -18,6 +25,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -41,6 +51,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -57,4 +70,24 @@ jobs:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           AUTOMATED: '1'
-        run: python3 bot.py --post
+        run: |
+          if [ "${{ github.event.inputs.do_force }}" = 'true' ]; then
+            python3 bot.py --post --force
+          else
+            python3 bot.py --post
+          fi
+
+      - name: Persist updated state.json back to repository
+        # Only commit if data/state.json changed during the post run
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/state.json; then
+            echo "No changes to data/state.json; nothing to commit."
+          else
+            git add data/state.json
+            NEXT=$(python3 -c "import json; print(json.load(open('data/state.json'))['next_index'])")
+            git commit -m "Update state.json after posting (next_index=${NEXT})"
+            git push origin HEAD:main
+          fi
