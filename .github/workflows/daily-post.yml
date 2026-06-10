@@ -71,7 +71,8 @@ jobs:
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           AUTOMATED: '1'
         run: |
-          if [ "${{ github.event.inputs.do_force }}" = 'true' ]; then
+          # Force posting for scheduled runs, or honor manual do_force input.
+          if [ "$GITHUB_EVENT_NAME" = 'schedule' ] || [ "${{ github.event.inputs.do_force }}" = 'true' ]; then
             python3 bot.py --post --force
           else
             python3 bot.py --post
