@@ -1,5 +1,5 @@
 {
-  "next_index": 22,
+  "next_index": 23,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -29,9 +29,10 @@
     "A Pint of Cider",
     "A Pair of Suspenders",
     "A Keg of Nails",
-    "A Yoke of Oxen"
+    "A Yoke of Oxen",
+    "A Circus Clown"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-07-02T15:11:02",
-  "last_post_text": "21/82\n\nNext they visit a shop on Fifth Avenue and ask to see _A Yoke of Oxen_."
+  "last_posted_at": "2026-07-03T15:06:35",
+  "last_post_text": "22/82\n\n'Sorry, we are all out of them but we have _A Circus Clown_ which would answer the purpose very well,' was the courteous reply of the young lady behind the counter."
 }
