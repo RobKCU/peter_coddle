@@ -1,5 +1,5 @@
 {
-  "next_index": 25,
+  "next_index": 26,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -31,9 +31,11 @@
     "A Keg of Nails",
     "A Yoke of Oxen",
     "A Circus Clown",
-    "A Leaky Boat"
+    "A Leaky Boat",
+    "A Bow-legged Camel",
+    "A Sleepy Bull-frog"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-07-05T14:28:03",
-  "last_post_text": "24/82\n\nGeorge discovers _A Leaky Boat_ in the Water and asks Paul what he uses that for."
+  "last_posted_at": "2026-07-06T16:16:36",
+  "last_post_text": "25/82\n\n'Why,' said Paul, 'that is _A Bow-legged Camel_ and not _A Sleepy Bull-frog_.'"
 }
