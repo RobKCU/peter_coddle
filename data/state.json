@@ -1,5 +1,5 @@
 {
-  "next_index": 28,
+  "next_index": 29,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -33,9 +33,11 @@
     "A Circus Clown",
     "A Leaky Boat",
     "A Bow-legged Camel",
-    "A Sleepy Bull-frog"
+    "A Sleepy Bull-frog",
+    "A Linen Duster",
+    "A Hot Snow Ball"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-07-08T15:15:39",
-  "last_post_text": "27/82\n\n'Who are you looking for?' said George."
+  "last_posted_at": "2026-07-09T15:54:32",
+  "last_post_text": "28/82\n\n'We are trying to find _A Linen Duster_ and _A Hot Snow Ball_.'"
 }
