@@ -1,5 +1,5 @@
 {
-  "next_index": 36,
+  "next_index": 37,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -42,9 +42,12 @@
     "A Chattering Monkey",
     "A Toy Pistol",
     "A Western Cyclone",
-    "A Clam Chowder"
+    "A Clam Chowder",
+    "A Horseless Carriage",
+    "A Haunted House",
+    "A Five Legged Calf"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-07-16T14:56:36",
-  "last_post_text": "35/82\n\nAt the ninth hole Miss Pocahontas discovered _A Clam Chowder_ hanging on a tree a few yards away and exclaimed. 'Now, if John Smith were only here, he would be delighted to get it for me.'"
+  "last_posted_at": "2026-07-17T14:29:07",
+  "last_post_text": "36/82\n\nGeorge replied, 'I can get _A Horseless Carriage_ or _A Haunted House_ for you but not _A Five Legged Calf_.'"
 }
