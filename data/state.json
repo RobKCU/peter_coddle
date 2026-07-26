@@ -1,5 +1,5 @@
 {
-  "next_index": 45,
+  "next_index": 46,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -55,9 +55,10 @@
     "A Piece of Cheese",
     "A Balky Donkey",
     "A Bunch of Asparagus",
-    "A Bottle of Horse Radish"
+    "A Bottle of Horse Radish",
+    "A German Band"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-07-25T14:27:56",
-  "last_post_text": "44/82\n\nTo enter the Park one had to have _A Bottle of Horse Radish_ to hand to the officer at the Gate."
+  "last_posted_at": "2026-07-26T14:26:29",
+  "last_post_text": "45/82\n\nGeorge, not having one, gave instead _A German Band_."
 }
