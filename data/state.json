@@ -1,5 +1,5 @@
 {
-  "next_index": 59,
+  "next_index": 60,
   "used_words": [
     "A Glass of Soda",
     "Toothache Drops",
@@ -67,9 +67,11 @@
     "A Bunch of Grapes",
     "A Can of Malted Milk",
     "A Corned Beef Dinner",
-    "A Tin Soldier"
+    "A Tin Soldier",
+    "A Two Year Old Doughnut",
+    "A Clam Bake"
   ],
   "cycle": 1,
-  "last_posted_at": "2026-08-09T13:44:32",
-  "last_post_text": "58/82\n\n'It looks to me mighty like _A Tin Soldier_,' Mary said."
+  "last_posted_at": "2026-08-10T14:18:00",
+  "last_post_text": "59/82\n\n'It is _A Two Year Old Doughnut_,' said George, but Doug replied, 'No, it seems to me more like _A Clam Bake_.'"
 }
