@@ -2,3 +2,5 @@
 .venv/
 __pycache__/
 .DS_Store
+logs/bot.log
+presenter/

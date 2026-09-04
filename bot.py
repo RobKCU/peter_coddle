@@ -150,17 +150,52 @@ def post_to_bluesky(post_text: str) -> None:
     """
     from atproto import Client
 
+    # Try to import the specific atproto exception class if available
+    try:
+        from atproto_client.exceptions import UnauthorizedError
+    except Exception:
+        UnauthorizedError = None
+
     handle = os.environ.get("BLUESKY_HANDLE")
     app_password = os.environ.get("BLUESKY_APP_PASSWORD")
 
     if not handle:
-        raise RuntimeError("Missing BLUESKY_HANDLE in .env")
+        raise RuntimeError("Missing BLUESKY_HANDLE in environment (or .env)")
 
     if not app_password:
-        raise RuntimeError("Missing BLUESKY_APP_PASSWORD in .env")
+        raise RuntimeError("Missing BLUESKY_APP_PASSWORD in environment (or .env)")
 
     client = Client()
-    client.login(handle, app_password)
+
+    try:
+        client.login(handle, app_password)
+    except Exception as e:
+        # Provide clearer guidance for authentication failures so CI logs are actionable.
+        err_text = repr(e)
+
+        guidance = (
+            "Bluesky authentication failed: Invalid handle or app password.\n"
+            "Make sure your GitHub Secrets `BLUESKY_HANDLE` and `BLUESKY_APP_PASSWORD` are set correctly.\n"
+            "- `BLUESKY_HANDLE` should usually be your full handle, e.g. 'yourname.bsky.social' (no surrounding quotes).\n"
+            "- `BLUESKY_APP_PASSWORD` should be an app password generated in your Bluesky account settings (copy/paste exactly, no trailing newlines).\n"
+            "If in doubt, try logging in locally with the same env values and/or create a fresh app password and update the secret."
+        )
+
+        # If we have the UnauthorizedError type, prefer isinstance check.
+        if UnauthorizedError is not None and isinstance(e, UnauthorizedError):
+            logging.error("Bluesky login failed (Unauthorized). %s", err_text)
+            raise RuntimeError(guidance) from e
+
+        # Otherwise, check for the common server message text seen in atproto errors.
+        if "AuthenticationRequired" in err_text or "Invalid identifier or password" in err_text:
+            logging.error("Bluesky login failed (server response). %s", err_text)
+            raise RuntimeError(guidance) from e
+
+        # Unknown error: re-raise to preserve full traceback in CI logs.
+        logging.exception("Unexpected error during Bluesky login: %s", err_text)
+        raise
+
+    # If login succeeded, send the post
     client.send_post(text=post_text)
 
 
