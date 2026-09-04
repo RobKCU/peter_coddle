@@ -1,335 +1,579 @@
 [
-  {
-	  "id": 0,
-	  "type": "title",
-	  "text": "George Washington's Dream (Parker Bros., 1929)"
-  },
-  {
+    {
+    "id": 0,
+    "type": "title",
+    "text": "Brother Jonathan in London (Milton Bradley, 1910)"
+    },
+    {
     "id": 1,
-    "text": "George arrived at New York City on the Fourth of July shortly after he had been elected President of the U.S.A."
-  },
-  {
+	"text": "Brother Jonathan, an enterprising Yankee, a little of a farmer, something of an inventor, and upon a pinch not a bad horse trader, had long entertained the idea he would like to visit London, and as he expressed it, see 'how they hitched up there.'"
+    },
+	{
     "id": 2,
-    "text": "He obtained a fine Room at the hotel Admiral and after getting settled, he sees by his Ingersoll that it is nearly Time for Dinner."
-  },
-  {
+	"text": "So one bright June day we find him in the 'money center of the world,' arranging for lodgings in a house not far from the British Museum."
+    },
+    {
     "id": 3,
-	"text": "He has just got Time to shave and, using his brand new safety Razor, this is soon accomplished."
-  },
-  {
-    "id": 4,
-	"text": "He looks as fresh as [BLANK] all dressed up like [BLANK]."
-  },
-  {
+	"text": "Having deposited the contents of his valise and, as he expressed it, 'got the hang of the school house,' he started out saying he might as well take in what was nearest him."
+    },
+    {
+    "id": 4, 
+	"text": "He entered the area in front of the Museum where a policeman told him he could check his umbrella inside, and if he had [BLANK] he could leave that also."
+    },
+    {
     "id": 5,
-	"text": "He takes the Elevator to the Hotel Lobby and sees, to his great Astonishment, his Friend Judge Taft, who is smiling like [BLANK]."
-  },
-  {
-    "id": 6,
-	"text": "They shake hands and George invites the Judge to dine with Him."
-  },
-  {
-    "id": 7,
-	"text": "They enter the Dining Room and order a delicious Soup made of [BLANK] and [BLANK] roast; [BLANK] stuffed with [BLANK] and a fine [BLANK] with dressing made of [BLANK]."
-  },
-  {
-    "id": 8,
-	"text": "In addition, the waiter brought them [BLANK] which George relished highly."
-  },
-  {
-    "id": 9,
-	"text": "For Dessert they had [BLANK] and [BLANK] and after this most satisfactory Repast, George excused himself and again taking the Elevator, returned to his Room, and feeling as tired as [BLANK] he fell asleep and dreamed the following remarkable dream:-"
-  },
-  {
-    "id": 10,
-	"text": "He dreamed he was riding through a crowded street in a beautiful Motor Car with Daniel Webster and Christopher Columbus who were talking of the latest thing in Radio Sets."
-  },
-  {
-    "id": 11,
-	"text": "George said he had one at Mt. Vernon which looked like [BLANK] and he was getting fine Results."
-  },
-  {
-    "id": 12,
-	"text": "Christopher said that his dear friend Queen Isabella of Spain had [BLANK] which she was using instead of a Radio, but her great Trouble with it was that when [BLANK] got in the way, Everything sounded like [BLANK] and [BLANK] having a fight."
-  },
-  {
-    "id": 13,
-	"text": "They were just passing the Woolworth Building when Daniel saw an Airplane sailing around the top of the Tower."
-  },
-  {
-    "id": 14,
-	"text": "Daniel said it reminded him of [BLANK] but George said it looked more like [BLANK] to him."
-  },
-  {
-    "id": 15,
-	"text": "They were held up at the Corner by a Traffic Cop who resembled [BLANK] rather than [BLANK]."
-  },
-  {
-    "id": 16,
-	"text": "The Policeman, who recognized them, remarked 'Why, you have just missed Tom Thumb and his wife; they went by a few minutes ago in a twelve cylinder Flivver!'"
-  },
-  {
-    "id": 17,
-	"text": "All expressed regrets at not catching a glimpse once more of their two old friends, and on they hurried."
-  },
-  {
-    "id": 18,
-	"text": "In the next Block a big Fire was in progress and it burned with such Rapidity that [BLANK] and [BLANK] were destroyed."
-  },
-  {
-    "id": 19,
-	"text": "To aid in extinguishing the Flames a Fireman took [BLANK] and [BLANK] which helped in quenching the Fire."
-  },
-  {
-    "id": 20,
-	"text": "While they were standing there [BLANK] whizzed by George's Ear, which almost decapitated [BLANK] he was holding in his Hand."
-  },
-  {
-    "id": 21,
-	"text": "Next they visit a shop on Fifth Avenue and ask to see [BLANK]."
-  },
-  {
-    "id": 22,
-	"text": "'Sorry, we are all out of them but we have [BLANK] which would answer the purpose very well,' was the courteous reply of the young lady behind the counter."
-  },
-  {
-    "id": 23, 
-	"text": "The dream then changes and George finds himself in the U.S. Naval Station, where John Paul Jones is trying out his new deep-sea submarine."
-  },
-  {
-    "id": 24,
-	"text": "George discovers [BLANK] in the Water and asks Paul what he uses that for."
-  },
-  {
-    "id": 25, 
-	"text": "'Why,' said Paul, 'that is [BLANK] and not [BLANK].'"
-  },
-  {
-    "id": 26,
-	"text": "Before entering the Sub they discover Thomas Edison and Paul Revere coming toward them."
-  },
-  {
-    "id": 27,
-	"text": "'Who are you looking for?' said George."
-  },
-  {
-    "id": 28,
-	"text": "'We are trying to find [BLANK] and [BLANK].'"
-  },
-  {
-    "id": 29,
-	"text": "'Not here,' said George, 'but I saw [BLANK] chasing [BLANK] down by that Radio Tower and you will also find [BLANK] they had with them!'"
-  },
-  {
-    "id": 30,
-	"text": "George then suggested that they test out the Sub and so they went aboard."
-  },
-  {
-    "id": 31,
-	"text": "They descended to about 98 feet and, through the periscope, George saw a [BLANK] and a [BLANK] being devoured by a gigantic Cod Fish which seemed to be enjoying his Meal."
-  },
-  {
-    "id": 32,
-	"text": "As the Sub rose to the surface they saw rapidly approaching them the new Super-Dreadnaught 'New Jersey' on the lookout for Capt. Kidd."
-  },
-  {
-    "id": 33,
-	"text": "Now again the scene changes, and George dreams that he is on the Golf Links playing a foursome with Andrew Carnegie, Nick Carter and Pocahontas."
-  },
-  {
-    "id": 34,
-	"text": "George said he understood that Andrew had paid fifty billion Marks for one Golf Ball, but Nick said 'Oh No, it was [BLANK] that Andrew had purchased!'"
-  },
-  {
-    "id": 35, 
-	"text": "At the ninth hole Miss Pocahontas discovered [BLANK] hanging on a tree a few yards away and exclaimed. 'Now, if John Smith were only here, he would be delighted to get it for me.'"
-  },
-  {
-    "id": 36,
-	"text": "George replied, 'I can get [BLANK] or [BLANK] for you but not [BLANK].'"
-  },
-  {
-    "id": 37,
-	"text": "The Game finished, Miss Pocahontas being the winner, all repaired to the Club House for Lunch."
-  },
-  {
-    "id": 38,
-	"text": "George called a waiter who was passing and asked him to bring [BLANK] as well as the menu."
-  },
-  {
-    "id": 39,
-	"text": "After looking the latter over very carefully, he found that it was written in French and that he couldn't read a word of it."
-  },
-  {
-    "id": 40,
-	"text": "However, he selected [BLANK] to start with, with [BLANK] to follow, after which he had [BLANK] well done with [BLANK] au gratin."
-  },
-  {
-    "id": 41,
-	"text": "For Dessert he ordered [BLANK] and [BLANK], neither of which he cared much about."
-  },
-  {
-    "id": 42,
-	"text": "He, however, thoroughly enjoyed [BLANK] which he lighted with [BLANK]."
-  },
-  {
-    "id": 43, 
-	"text": "That afternoon George had an appointment with John McGraw to visit the Ball Park where Christopher Columbus' Sailors were playing an exhibition game with the Jail College Team."
-  },
-  {
-    "id": 44,
-	"text": "To enter the Park one had to have [BLANK] to hand to the officer at the Gate."
-  },
-  {
-    "id": 45,
-	"text": "George, not having one, gave instead [BLANK]."
-  },
-  {
-    "id": 46,
-	"text": "Such a crowd as was there!"
-  },
-  {
-    "id": 47,
-	"text": "Some had [BLANK] in their hands which they were waving constantly, while others were throwing [BLANK] at each other."
-  },
-  {
-    "id": 48,
-	"text": "The first man at the Bat seized [BLANK] and made a Crack at the Ball but failed to hit it."
-  },
-  {
-    "id": 49,
-	"text": "He threw his Bat at [BLANK] which landed there."
-  },
-  {
-    "id": 50,
-	"text": "The crowd roared!"
-  },
-  {
-    "id": 51,
-	"text": "The batter, however, became so enraged that he snatched [BLANK] lying near at hand and with a mighty swing of his arm flung it at the Umpire."
-  },
-  {
-    "id": 52,
-	"text": "In the next row but one, George saw Betsy Ross waving [BLANK]."
-  },
-  {
-    "id": 53,
-	"text": "She had her Ukulele and [BLANK] with her and was very proud of [BLANK] she had on a String."
-  },
-  {
-    "id": 54,
-	"text": "She seemed to be enjoying the game very much."
-  },
-  {
-    "id": 55,
-	"text": "Sitting beside her was a gentleman who looked very much like Abraham Lincoln, who had [BLANK] on the end of his Cane."
-  },
-  {
-    "id": 56, 
-	"text": "Once more the dream Picture changes and George finds himself in an Airplane with Mary Pickford, Douglas Fairbanks and Charlie Chaplin."
-  },
-  {
-    "id": 57,
-	"text": "The operator being 'Safety First'-Harold Lloyd, they amble along at about 190 Miles an Hour, when they discover [BLANK] in the Distance."
-  },
-  {
-    "id": 58,
-	"text": "'It looks to me mighty like [BLANK],' Mary said."
-  },
-  {
-    "id": 59,
-	"text": "'It is [BLANK],' said George, but Doug replied, 'No, it seems to me more like [BLANK].'"
-  },
-  {
-    "id": 60,
-	"text": "When they came within hailing distance they discovered to their great surprise it was [BLANK]."
-  },
-  {
-    "id": 61,
-	"text": "Charlie then remarked, 'If that was [BLANK] and we had it, we all would look like [BLANK].'"
-  },
-  {
-    "id": 62,
-	"text": "After making a nose Dive to the 860 foot Level, they slow down to about fifty Miles an Hour, and Charlie takes Harold's place as operator."
-  },
-  {
-    "id": 63,
-	"text": "'Now don't try any Monkey Shines with this Machine or we will be in Kingdom Come before we know it,' says Harold."
-  },
-  {
-    "id": 64,
-	"text": "The airplane runs as smoothly as [BLANK] in Fly Time."
-  },
-  {
-    "id": 65,
-	"text": "Suddenly there appeared [BLANK] on the horizon, but they do not even hesitate."
-  },
-  {
-    "id": 66,
-	"text": "Eventually they arrive at their Destination near Washington, and after a successful Landing, all express Delight at the expertness of the operators and present them with [BLANK] for their wonderful Ability."
-  },
-  {
-    "id": 67,
-	"text": "From the Landing Field, George invites his Friends to visit the White House, and as it is only a short walk this is soon accomplished."
-  },
-  {
-    "id": 68,
-	"text": "Passing into the House, George misses [BLANK] which has stood for so many years in the Corner."
-  },
-  {
-    "id": 69,
-	"text": "In its Place was [BLANK] which caused much merriment."
-  },
-  {
-    "id": 70,
-	"text": "Charlie, as usual tumbles over [BLANK] which was just beyond [BLANK] in the large Hall."
-  },
-  {
-    "id": 71,
-	"text": "Mary laughed so heartily that she fell on [BLANK] which was lying on the Rug."
-  },
-  {
-    "id": 72,
-	"text": "After a short Stay at the White House, they visit the Capitol, where they run across Henry Ford with [BLANK] on a String."
-  },
-  {
-    "id": 73,
-	"text": "He said he was looking for a Job in the City and hoped to land Something soon."
-  },
-  {
-    "id": 74, 
-	"text": "He remarked that he would like to be President or something like that!"
-  },
-  {
-    "id": 75,
-	"text": "The dream changes again and George finds himself speeding toward Chicago on the 20th Century Limited."
-  },
-  {
-    "id": 76,
-	"text": "He discovers to his great surprise [BLANK] and [BLANK] across the aisle."
-  },
-  {
-    "id": 77,
-	"text": "The conductor comes through the train and George hands him [BLANK]."
-  },
-  {
-    "id": 78,
-	"text": "'I want your ticket,' exclaims the conductor, 'and not [BLANK]!'"
-  },
-  {
-    "id": 79,
-	"text": "George makes a thorough search and finds [BLANK] in his pocket which he presents to the conductor."
-  },
-  {
-    "id": 80,
-	"text": "'All right, this will do,' says that official."
-  },
-  {
-    "id": 81,
-	"text": "Then suddenly there is an awful crash, the brakes grind, there is a terrible roar, and everything seems to go to pieces."
-  },
-  {
-    "id": 82,
-	"text": "GEORGE WAKES UP!"
-  }
+    "text": "Jonathan said 'he would not part with it for [BLANK].'"
+    },
+    {
+    "id": 6, 
+  "text": "He had heard of the Elgin marbles, so went right to see them."
+    },
+	{
+	"id": 7,
+	"text": "They, coming from Athens, represented a high state of Greek Art, and the subjects were of absorbing interest."
+	},
+	{
+	"id": 8,
+	"text": "One relief was that of [BLANK], another was [BLANK], and a small one [BLANK]."
+	},
+	{
+	"id": 9,
+	"text": "Jonathan met a man from his own country who said he would not give [BLANK] for the whole lot."
+	},
+	{
+	"id": 10,
+	"text": "Jonathan was interested in the other side of the building where he saw the original Magna Carta in a case made from [BLANK]."
+	},
+	{
+	"id": 11, 
+	"text": "Nelson's plan of the battle of Trafalgar, drawn upon [BLANK] was interesting."
+	},
+	{
+	"id": 12,
+	"text": "In the Gold Room he saw a vase made in the shape of [BLANK], also the celebrated Portland Vase."
+	},
+	{
+	"id": 13,
+	"text": "In the Indian Department they had war implements from [BLANK] to [BLANK]."
+	},
+	{
+	"id": 14,
+	"text": "His landlady suggested the best way to get a general idea of the city was to ride on the top of the bus."
+	},
+	{
+	"id": 15, 
+	"text": "The next morning Jonathan mounted a coach, seating himself near the driver to whom he gave [BLANK] as a fee, telling him 'Now spread yourself like [BLANK] and fire all the information you have at me.'"
+	},
+	{
+	"id": 16,
+	"text": "'I came from the U.S.A., I did, and don't take a back seat for any one, so let your tongue fly like [BLANK] in a mill race.'"
+	},
+	{
+	"id": 17,
+	"text": "The driver said he was as proud as [BLANK] to be able to give him points on [BLANK]."
+	},
+	{
+	"id": 18,
+	"text": "Jonathan observed the long line of coaches kept to the left, and asked the driver the reason 'for it seems as odd as [BLANK] on a huckleberry bush.'"
+	},
+	{
+	"id": 19,
+	"text": "The driver replied the whip hand being the right requires the driver to sit at right hand so as to swing his whip and hit [BLANK] without bothering the passengers."
+	},
+	{
+	"id": 20,
+	"text": "The drivers by keeping to the left were brought near each other and could tell if there was a danger of their hubs touching."
+	},
+	{
+	"id": 21,
+	"text": "Jonathan said 'the plan was as slick as [BLANK].'"
+	},
+	{
+	"id": 22,
+	"text": "The ride was a long one, the bus he was on went to Kensington."
+	},
+	{
+	"id": 23,
+	"text": "Jonathan gave the driver [BLANK] and left the coach at the walk leading to Kensington Palace."
+	},
+	{
+	"id": 24,
+	"text": "In front of the Palace was [BLANK] and a statue of Queen Victoria made by the Princess Louise."
+	},
+	{
+	"id": 25,
+	"text": "Kensington Palace was the birthplace and early home of the Queen and she thinks more of it than [BLANK]."
+	},
+	{
+	"id": 26,
+	"text": "Among the articles of interest are [BLANK], the play-things of her childhood, and family portraits."
+	},
+	{
+	"id": 27,
+	"text": "He next saw the Albert Memorial, a large hall devoted to concerts and the like."
+	},
+	{
+	"id": 28,
+	"text": "He gave a man [BLANK] to see the inside."
+	},
+	{
+	"id": 29,
+	"text": "The Albert Monument opposite had a gilt statue of the Prince seated; in a gothic monument around the base were relief representations of artists, [BLANK], authors, and noted men."
+	},
+	{
+	"id": 30,
+	"text": "In the Kensington Museum he saw a great many interesting articles, among them, [BLANK], [BLANK], and [BLANK]."
+	},
+	{
+	"id": 31,
+	"text": "In the South Kensington Sewing School exhibit he saw [BLANK], [BLANK], and [BLANK] worked in silk."
+	},
+	{
+	"id": 32, 
+	"text": "He next took a bus to Hyde Park Corner."
+	},
+	{
+	"id": 33,
+	"text": "He hired one of the park chairs for [BLANK], sat down and watched the show, which he thought would be cheap as [BLANK]."
+	},
+	{
+	"id": 34,
+	"text": "There were two rows of carriages passing each way."
+	},
+	{
+	"id": 35,
+	"text": "He noticed one of the carriages had for a crest [BLANK]."
+	},
+	{
+	"id": 36,
+	"text": "Near the Hyde Park Gate he saw the house the Nation presented to the Duke of Wellington; its total cost was [BLANK]."
+	},
+	{
+	"id": 37,
+	"text": "He went home and told his landlady 'he would not take [BLANK] for what he had seen that day.'"
+	},
+	{
+	"id": 38,
+	"text": "Jonathan next saw the Old Curiosity Shops mentioned by Dickens; he gave a boy [BLANK] for showing him the way."
+	},
+	{
+	"id": 39,
+	"text": "Trafalgar Square and Monument he had often wished to see; the lions at the base of the Monument reminded him of [BLANK]."
+	},
+	{
+	"id": 40,
+	"text": "The National Gallery is near by; he saw there many of the pictures he had known in his picture books as a boy."
+	},
+	{
+	"id": 41,
+	"text": "'Dignity and Impudence,' 'A Member of the Humane Society,' [BLANK], and [BLANK] were all there."
+	},
+	{
+	"id": 42,
+	"text": "Another building close by is the National Portrait Gallery; many tourists do not go there as it costs [BLANK] to go in."
+	},
+	{
+	"id": 43,
+	"text": "It is cheap at any price for here are gathered the portraits of the men and women that have made England famous."
+	},
+	{
+	"id": 44,
+	"text": "One of the early kings had [BLANK] in his hand."
+	},
+	{
+	"id": 45,
+	"text": "He went to the National Academy and saw the works of the artists of the present day."
+	},
+	{
+	"id": 46,
+	"text": "He saw [BLANK], [BLANK], and [BLANK] most faithfully represented."
+	},
+	{
+	"id": 47,
+	"text": "Jonathan went down one morning to the Horse Guards and saw them change guard."
+	},
+	{
+	"id": 48,
+	"text": "The horses acted as though they carried [BLANK]."
+	},
+	{
+	"id": 49, 
+	"text": "Jonathan said he would be as tired as [BLANK] sitting still on a horse."
+	},
+	{
+	"id": 50,
+	"text": "The old Whitehall Palace recalled to his mind King Charles I, a time when they lopped off a man's head for [BLANK]."
+	},
+	{
+	"id": 51,
+	"text": "A little walk, 'only a step,' as the English call it, brought him to [BLANK] and St. James Palace, which reminded him of [BLANK]."
+	},
+	{
+	"id": 52,
+	"text": "Near the Marlborough House, the town residence of the Prince of Wales, he met a man carrying [BLANK]."
+	},
+	{
+	"id": 53,
+	"text": "His next visit was to the Parliament Buildings and Westminster Abbey."
+	},
+	{
+	"id": 54,
+	"text": "'Big Ben,' the great bell in the tower of the Parliament Buildings weighs 13 tons and makes a noise like [BLANK] when it is sounded."
+	},
+	{
+	"id": 55,
+	"text": "The clock face which looks no bigger than [BLANK] is 23 feet in diameter."
+	},
+	{
+	"id": 56,
+	"text": "He did not have much time to see the inside; the officers in charge hurried him along as though they were afraid he would steal [BLANK] or [BLANK]."
+	},
+	{
+	"id": 57,
+	"text": "However, he kept his eyes open and managed to see a great deal."
+	},
+	{
+	"id": 58,
+	"text": "In Westminster Abbey he was anxious to see the stone of Scone which is built into the Coronation Chair."
+	},
+	{
+	"id": 59,
+	"text": "He thought it was like putting [BLANK] on [BLANK]."
+	},
+	{
+	"id": 60,
+	"text": "The statues in the Poets' Corner were interesting and those in the Statesmen Group were very instructive."
+	},
+	{
+	"id": 61,
+	"text": "On Sir Isaac Newton's monument was a design of [BLANK]."
+	},
+	{
+	"id": 62,
+	"text": "On this trip down the Thames he saw Lambeth Palace opposite the Houses of Parliament."
+	},
+	{
+	"id": 63,
+	"text": "The Palace is the residence of the Archbishop of Canterbury and contains a splendid library and [BLANK]."
+	},
+	{
+	"id": 64,
+	"text": "St. Thomas Hospital is quite near."
+	},
+	{
+	"id": 65, 
+	"text": "The beautiful Westminster Bridge suggested [BLANK] it was so nice."
+	},
+	{
+	"id": 66,
+	"text": "Somerset House is on the site of an old palace."
+	},
+	{
+	"id": 67,
+	"text": "It is now a sort of national depository for wills and [BLANK]."
+	},
+	{
+	"id": 68,
+	"text": "Cleopatra's Needle, Jonathan thought, resembled the one in Central Park, New York, only this one looked more like [BLANK]."
+	},
+	{
+	"id": 69, 
+	"text": "At Swan Point Ferry a woman came on the steamer with [BLANK] which had cost her [BLANK]."
+	},
+	{
+	"id": 70,
+	"text": "The Custom House and Billingsgate, the noted fish-market, were near each other."
+	},
+	{
+	"id": 71,
+	"text": "A passenger told Jonathan the fishwoman called [BLANK], [BLANK]."
+	},
+	{
+	"id": 72,
+	"text": "The famous London Bridge had a great crowd of teams and people crossing in either direction."
+	},
+	{
+	"id": 73, 
+	"text": "The Tower Bridge was a funny looking bridge, just like a [BLANK]."
+	},
+	{
+	"id": 74,
+	"text": "Below these bridges the ocean steamers and shipping began to be as thick as [BLANK]."
+	},
+	{
+	"id": 75,
+	"text": "One steamer having [BLANK] painted on its bow came from Cape Town."
+	},
+	{
+	"id": 76,
+	"text": "Another with a private flag representing [BLANK] was from Montreal."
+	},
+	{
+	"id": 77,
+	"text": "He left the steamer at Greenwich and went up the hill to see the famous Greenwich Observatory."
+	},
+	{
+	"id": 78,
+	"text": "The view from the hill was as fine as [BLANK]."
+	},
+	{
+	"id": 79,
+	"text": "He set his watch, which was as fast as [BLANK] by the clock."
+	},
+	{
+	"id": 80,
+	"text": "Going back to the boat he passed as near as [BLANK] to the church where Gen. Wolfe is buried."
+	},
+	{
+	"id": 81,
+	"text": "The naval museum building looked like [BLANK] and no one would ever guess that Henry VIII was born there."
+	},
+	{
+	"id": 82,
+	"text": "Returning to the city they came very near running down a boat loaded with [BLANK]."
+	},
+	{
+	"id": 83,
+	"text": "In St. Paul's, the third largest church in Christendom, he was disappointed in the size; it seemed no taller than [BLANK]."
+	},
+	{
+	"id": 84, 
+	"text": "The length of the Crypt, however, seemed as long as [BLANK]."
+	},
+	{
+	"id": 85, 
+	"text": "The many monuments interested Jonathan very much."
+	},
+	{
+	"id": 86,
+	"text": "In the Bank of England he saw the 1,000,000 pound note; also [BLANK]; the automatic weighing machine detected a light weight coin as quickly as [BLANK]."
+	},
+	{
+	"id": 87,
+	"text": "The Mansion House, the residence of the Lord Mayor, a fine looking building had [BLANK] in one of the windows."
+	},
+	{
+	"id": 88,
+	"text": "In the Royal Exchange, the other side of the Square, were paintings of [BLANK], the Early Britons Trading with the Phoenicians, and [BLANK]."
+	},
+	{
+	"id": 89,
+	"text": "The Fire Monument, nearer the River, marks where the Great Fire started; it was caused by [BLANK]."
+	},
+	{
+	"id": 90,
+	"text": "In the Temple Church he saw [BLANK] and the figures of some of the Crusaders with their legs crossed; those who had not been to the Holy Land did not enjoy that distinction."
+	},
+	{
+	"id": 91,
+	"text": "He went into the Law Courts, and saw a trial in progress."
+	},
+	{
+	"id": 92,
+	"text": "It was all about [BLANK]."
+	},
+	{
+	"id": 93, 
+	"text": "The judges and lawyers looked like [BLANK] in their gowns and wigs."
+	},
+	{
+	"id": 94,
+	"text": "Where the monument surmounted by a [BLANK] now stands by the Law Courts, once stood the noted Temple Bar, seemingly as proud as [BLANK]; a model of it is preserved against the wall of a building opposite."
+	},
+	{
+	"id": 95,
+	"text": "Quite a ceremony took place here in the olden times, whenever royalty entered the old city."
+	},
+	{
+	"id": 96,
+	"text": "The Mayor handed the sovereign the keys of the city and [BLANK]."
+	},
+	{
+	"id": 97,
+	"text": "The City of London proper you can walk across in half an hour, but London as we think and speak of it is a large place, as big as [BLANK]."
+	},
+	{
+	"id": 98,
+	"text": "One fine morning Jonathan took a train and went to Slough."
+	},
+	{
+	"id": 99,
+	"text": "At the depot there he saw the stuffed skin of a dog."
+	},
+	{
+	"id": 100,
+	"text": "The dog when alive used to carry [BLANK] in his mouth, and collect money from the passengers for [BLANK] which sum went to a charitable institution."
+	},
+	{
+	"id": 101,
+	"text": "At Slough he hired a man for [BLANK] to take him to Stoke Poges Church, the scene of Gray's Elegy."
+	},
+	{
+	"id": 102,
+	"text": "On the way they passed a girl with [BLANK]."
+	},
+	{
+	"id": 103,
+	"text": "He gave the woman in charge [BLANK] and she showed him the church with Penn's pew, the seat Gray used to occupy, and [BLANK]."
+	},
+	{
+	"id": 104,
+	"text": "She gave him a sprig of the famous yew trees which Jonathan said he cared for more than [BLANK]."
+	},
+	{
+	"id": 105,
+	"text": "The driver said he would for [BLANK] take him to the Burnham Beeches."
+	},
+	{
+	"id": 106,
+	"text": "Jonathan said 'Ring her ahead at full speed,' so they continued their journey."
+	},
+	{
+	"id": 107,
+	"text": "Instead of finding a few trees, as he expected, no larger than [BLANK], he found a space of 375 acres with many fine beeches that look like [BLANK]."
+	},
+	{
+	"id": 108,
+	"text": "The City of London has taken the entire land for a pleasure ground."
+	},
+	{
+	"id": 109,
+	"text": "He returned to Slough, gave [BLANK] to the driver as a fee, then took the cars for Windsor, a short distance away."
+	},
+	{
+	"id": 110,
+	"text": "It was a short walk from the station to the street that led to the right towards the Castle."
+	},
+	{
+	"id": 111, 
+	"text": "As he approached he saw the statue of the Queen erected in Jubilee year; it looked as nice as [BLANK], standing on [BLANK]."
+	},
+	{
+	"id": 112, 
+	"text": "Unfortunately he could not see the Queen; this made him as mad as [BLANK], and what made him feel more vexed was because she being at home he could not see the Royal Gallery and that part of the Castle."
+	},
+	{
+	"id": 113,
+	"text": "In St. George's Chapel a sign is up requesting visitors not to fee the ushers."
+	},
+	{
+	"id": 114,
+	"text": "The verger that attended to Jonathan said 'they were not allowed to ask for [BLANK] but if the visitors cared to present them with [BLANK] why that was all right.'"
+	},
+	{
+	"id": 115,
+	"text": "Jonathan used palm oil in the shape of [BLANK] which made all right."
+	},
+	{
+	"id": 116,
+	"text": "He took a cab, went over to see the Eton Boys with their little tall hats, white collars, and black jackets."
+	},
+	{
+	"id": 117,
+	"text": "An old lady said they looked like [BLANK]."
+	},
+	{
+	"id": 118,
+	"text": "Jonathan felt he had seen a great deal that day, and returned to his lodgings as tired as [BLANK]."
+	},
+	{
+	"id": 119,
+	"text": "The next morning he took a cab drive and arranged with the driver for [BLANK] to be gone all the morning."
+	},
+	{
+	"id": 120,
+	"text": "First he went to the Covent Garden Market."
+	},
+	{
+	"id": 121,
+	"text": "There he saw flowers and fruit, [BLANK], [BLANK], and [BLANK]."
+	},
+	{
+	"id": 122,
+	"text": "He then went to the big Smithfield meat market."
+	},
+	{
+	"id": 123,
+	"text": "It was as long as [BLANK] and as wide as [BLANK], with a drive-way right through the center."
+	},
+	{
+	"id": 124,
+	"text": "On the hospital across the way he saw a tablet that looked like [BLANK]."
+	},
+	{
+	"id": 125,
+	"text": "He examined it and found it referred to the historic space in front where William Wallace, John Rogers, and others were executed."
+	},
+	{
+	"id": 126,
+	"text": "The driver showed him a church that looked like [BLANK], but said it was St. Giles Cripplegate where John Milton was buried and Cromwell married."
+	},
+	{
+	"id": 127,
+	"text": "In the afternoon he went on a 'bus to the Zoological Gardens."
+	},
+	{
+	"id": 128,
+	"text": "These occupy a tract of land as large as [BLANK] and everything is kept as neat as [BLANK]."
+	},
+	{
+	"id": 129,
+	"text": "Jonathan had seen several Zoological Gardens but not one of them contained an insect house."
+	},
+	{
+	"id": 130,
+	"text": "He was therefore much interested in this one, even if the principal inhabitants were spiders, [BLANK], and [BLANK]."
+	},
+	{
+	"id": 131,
+	"text": "The Bell Bird from Brazil made a noise just like a bell."
+	},
+	{
+	"id": 132,
+	"text": "The large Hippopotamus was as big as [BLANK]."
+	},
+	{
+	"id": 133,
+	"text": "Jonathan said the tortoises and turtles in the various houses would cover half an acre."
+	},
+	{
+	"id": 134,
+	"text": "They were as thick as [BLANK] on a summer day."
+	},
+	{
+	"id": 135,
+	"text": "Jonathan visited the theatre, but as the play was about [BLANK] he said he preferred to ride on top of a bus, and look at [BLANK] than to spend his time inside a theatre with such a play."
+	},
+	{
+	"id": 136,
+	"text": "Jonathan went to Peter Robinson's where he purchased [BLANK], [BLANK], and [BLANK], as presents to take home."
+	},
+	{
+	"id": 137,
+	"text": "He also bought in the Strand, [BLANK] and [BLANK]."
+	},
+	{
+	"id": 138,
+	"text": "The time had now arrived for Jonathan to make his bow to London, where he had spent several pleasant days."
+	},
+	{
+	"id": 139,
+	"text": "He said to his landlady he felt as bad as [BLANK] to leave her."
+	},
+	{
+	"id": 140,
+	"text": "He took the train at the station at twelve noon, for the steamer at Liverpool."
+	},
+	{
+	"id": 141,
+	"text": "The train flew as fast as [BLANK] and at four o'clock he was landed alongside the landing stage at Liverpool."
+	},
+	{
+	"id": 142,
+	"text": "He told a fellow passenger he liked London first rate."
+	},
+	{
+	"id": 143,
+	"text": "The two best things to him were the policemen and the omnibuses."
+	}
 ]
